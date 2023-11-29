@@ -91,9 +91,12 @@ p {
   );
 }
 
+
 .apresentation {
   text-align: center;
   color: #fff;
+  max-width: 950px;
+  margin: 0 auto;
 }
 .apresentation h1 {
   margin-top: 140px;
@@ -110,6 +113,7 @@ p {
   color: #dadada;
 }
 .apresentation .btn {
+  display: inline-block;
   padding: 16px 16px;
   border-radius: 5px;
   margin-top: 70px;
@@ -119,7 +123,210 @@ p {
     rgba(7, 102, 50, 0.72) 72%
   );
   color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 70px;
 }
+
+.diferenciais-bg{
+  background-color: #f2f2f2;
+  padding-top: 90px;
+}
+
+.diferenciais h2{  
+  font-size: 3rem;
+  color: #00235C;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+
+.diferenciais p{
+  font-size: 1.5rem;
+  color: #9D9D9D;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+
+.diferenciais-card{
+  display: flex;
+  gap: 60px;
+  max-width: 1320px;
+  max-height: 400px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.card {
+  width: 400px;
+  height: 400px;  
+  background-color: #00358B;
+  border-radius: 5px;  
+  text-align: center;
+}
+
+.img-card{
+  max-width: 156px;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+.card p{
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+.sistemas{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.sistemas h2{
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 70px;
+  font-weight: 400;
+  font-size: 3rem;
+  color: #00235C;
+}
+
+.sistemas-card{
+  display: flex;
+  position: absolute;
+}
+
+.erion_emissor{
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.85) 85%
+  );
+  border-radius: 5px;
+  width: 710px;
+  padding-bottom: 60px;
+}
+.erion_emissor h3{
+  font-size: 2.125rem;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 60px;
+  margin-top: 60px;
+}
+
+.erion_emissor p{
+  font-size: 1.5rem;
+  color: #BDBDBD;
+  font-weight: 400;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.erion_emissor ul{
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 400;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.erion_emissor li{
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.erion_pdv{
+  background: linear-gradient(
+    180deg,
+    rgba(0, 32, 113, 1) 0%,
+    rgba(0, 32, 113, 0.9) 90%
+  );
+  border-radius: 5px;
+  position: relative;
+  width: 720px;
+  margin-top: 260px;
+  margin-left: -50px;
+  margin-bottom: -60px;
+}
+
+.erion_pdv h3{
+  font-size: 2.125rem;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 60px;
+  margin-top: 60px;
+}
+
+.erion_pdv p{
+  font-size: 1.5rem;
+  color: #BDBDBD;
+  font-weight: 400;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.erion_pdv ul{
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 400;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.erion_pdv li{
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.segmentos {
+  padding-top: 1040px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.segmentos h2 {
+  padding-bottom: 60px;
+  font-weight: 400;
+  font-size: 3rem;
+  color: #00235C;
+  
+}
+
+.segmentos_lista{
+  max-width: 1440px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.segmentos_lista li{  
+  padding: 30px;
+  font-size: 1.5rem;
+  
+}
+
+.segmentos_lista li:nth-child(odd){  
+  background-color: #E8E8E8;
+  
+}
+
+
+
+
+
+
+
+
+
+footer{
+  margin-top: 3000px;
+}
+
+
+
+
 
 @media (max-width: 800px) {
   .header-menu {
