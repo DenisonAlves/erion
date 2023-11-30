@@ -1,0 +1,31 @@
+.segmentos {
+    padding-top: 1040px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .segmentos h2 {
+    padding-bottom: 60px;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #00235C;
+    
+  }
+  
+  .segmentos_lista{
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);    
+    margin: 0 auto;
+  }
+  
+  .segmentos_lista li{  
+    padding: 30px;
+    font-size: 1.5rem;
+    
+  }
+  
+  .segmentos_lista li:nth-child(odd){  
+    background-color: #E8E8E8;
+    
+  }

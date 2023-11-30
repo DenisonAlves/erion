@@ -1,0 +1,15 @@
+.footer_bg{
+    background-color: #000;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .footer{
+    display: flex;  
+    max-width: 1440px;
+    margin: 0 auto;
+    gap: 150px;
+    color: #fff;
+    box-sizing: border-box;
+  
+  }

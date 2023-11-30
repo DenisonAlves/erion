@@ -1,0 +1,100 @@
+  .sistemas{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  .sistemas h2{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 70px;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #00235C;
+  }
+  
+  .sistemas-card{
+    display: flex;
+    position: absolute;    
+  }
+  
+  .erion_emissor{
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 0.85) 85%
+    );
+    border-radius: 5px;
+    max-width: 710px;    
+    padding-bottom: 60px;
+  }
+  .erion_emissor h3{
+    font-size: 2.125rem;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 60px;
+    margin-top: 60px;
+  }
+  
+  .erion_emissor p{
+    font-size: 1.5rem;
+    color: #BDBDBD;
+    font-weight: 400;
+    margin-left: 60px;
+    margin-top: 20px;
+  }
+  
+  .erion_emissor ul{
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 60px;
+    margin-top: 20px;
+  }
+  
+  .erion_emissor li{
+    margin-bottom: 16px;
+    text-transform: uppercase;
+  }
+  
+  .erion_pdv{
+    background: linear-gradient(
+      180deg,
+      rgba(0, 32, 113, 1) 0%,
+      rgba(0, 32, 113, 0.9) 90%
+    );
+    border-radius: 5px;
+    position: relative;
+    max-width: 720px;
+    margin-top: 260px;
+    margin-left: -50px;
+    margin-bottom: -60px;
+  }
+  
+  .erion_pdv h3{
+    font-size: 2.125rem;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 60px;
+    margin-top: 60px;
+  }
+  
+  .erion_pdv p{
+    font-size: 1.5rem;
+    color: #BDBDBD;
+    font-weight: 400;
+    margin-left: 60px;
+    margin-top: 20px;
+  }
+  
+  .erion_pdv ul{
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 60px;
+    margin-top: 20px;
+  }
+  
+  .erion_pdv li{
+    margin-bottom: 16px;
+    text-transform: uppercase;
+  }

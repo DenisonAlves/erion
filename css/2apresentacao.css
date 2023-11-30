@@ -1,0 +1,36 @@
+.apresentation {
+    text-align: center;
+    color: #fff;
+    max-width: 950px;
+    margin: 0 auto;
+  }
+  .apresentation h1 {
+    margin-top: 140px;
+    font-size: 60px;
+    line-height: normal;
+    letter-spacing: -0.5;
+  }
+  .apresentation h2 {
+    margin-top: 70px;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.25;
+    color: #dadada;
+  }
+  .apresentation .btn {
+    display: inline-block;
+    padding: 16px 16px;
+    border-radius: 5px;
+    margin-top: 70px;
+    background: linear-gradient(
+      180deg,
+      rgba(39, 173, 39, 1) 0%,
+      rgba(7, 102, 50, 0.72) 72%
+    );
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 70px;
+    box-sizing: border-box;
+  }
